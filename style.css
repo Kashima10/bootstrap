@@ -9,6 +9,9 @@
     --light: #f8f9fa;
     --dark: #343a40;
 }
+.container .row {
+    background-color: #8a98a6;
+}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -45,6 +48,7 @@ body {
     margin-bottom: 20px;
     border: none;
     transition: transform 0.3s;
+    background-color: #fc9cf6;
 }
 
 .card:hover {
@@ -57,7 +61,8 @@ body {
 }
 
 .card-text {
-    color: var(--secondary);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 footer {
