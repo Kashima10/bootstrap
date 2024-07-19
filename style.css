@@ -97,3 +97,9 @@ footer i {
 .contact-form .btn-primary:hover {
     background-color: var(--secondary);
 }
+
+.form-group {
+    background-color: #2ecc71;
+    border-radius: 10%;
+    padding: 5%;
+}
